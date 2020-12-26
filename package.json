@@ -1,0 +1,24 @@
+{
+  "name": "request-bomb",
+  "version": "1.0.0",
+  "description": "Envío de peticiones a un endpoint leyendo un archivo CSV",
+  "main": "request-bomb.js",
+  "scripts": {
+    "start": "node ./request-bomb.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rossumovi/request-bomb.git"
+  },
+  "author": "Johann Cubillos <jacubillosg@mail.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rossumovi/request-bomb/issues"
+  },
+  "homepage": "https://github.com/rossumovi/request-bomb#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "csv-parser": "^3.0.0"
+  }
+}
